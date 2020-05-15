@@ -1,0 +1,14 @@
+.Button {
+    border: 1px solid #f3f3f3;
+    background: transparent;
+    border-radius: 4px;
+    font-size: 1.1rem;
+    padding: 10px 30px;
+    transition: all 500ms cubic-bezier(0.6, -0.28, 0.735, 0.045);
+    color: inherit;
+    &:hover {
+        border: 1px solid #333;
+        cursor: pointer;
+        text-decoration: none;
+    }
+}
